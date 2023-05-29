@@ -30,9 +30,13 @@ Nesse projeto utilizamos de várias abordagens e padrões utilizadas no mercado 
 
 <strong>Resilience</strong>: Utilizado o Resilience4j para os microservices serem capazez de lidar com falhas e se recuperar delas, por meio de técnicas como retries, circuit breakers e fallbacks, garantindo a disponibilidade e a confiabilidade do sistema.
 
-Load Balancing<strong></strong>: A distribuição equilibrada do tráfego entre os microservices, garantindo a escalabilidade horizontal e a utilização eficiente dos recursos.
+<strong>Load Balancing</strong>: A distribuição equilibrada do tráfego entre os microservices, garantindo a escalabilidade horizontal e a utilização eficiente dos recursos.
 
-Global Config<strong></strong>: Componente  que permite centralizar e gerenciar a configuração de vários serviços em uma aplicação distribuída, facilitando o versionamento e a atualização da configuração de forma dinâmica.
+<strong>Global Config</strong>: Componente  que permite centralizar e gerenciar a configuração de vários serviços em uma aplicação distribuída, facilitando o versionamento e a atualização da configuração de forma dinâmica.
+
+<strong>Observabilidade</strong>: Essencial em arquiteturas de microservices, e ferramentas como o Elastic e o Kibana desempenham um papel fundamental nesse contexto. Com a elasticidade e o Kibana, é possível coletar, analisar e visualizar dados de logs, métricas e eventos em tempo real, proporcionando insights valiosos sobre o desempenho, a saúde e a resiliência dos microservices, garantindo a detecção e resolução proativas de problemas.
+
+<strong>Banco de dados por serviço</strong>: Uma abordagem em arquitetura de microservices onde cada serviço possui seu próprio banco de dados dedicado. Isso permite que os serviços mantenham suas próprias fontes de dados independentes, promovendo a autonomia, escalabilidade e isolamento dos dados. A gestão eficiente desses bancos de dados por meio de técnicas como particionamento, replicação e backups adequados é essencial para garantir o desempenho e a disponibilidade dos serviços em um ambiente distribuído. 
 
 ## Aqui Podemos ter uma visão ampla de como a arquitetura funciona
 
