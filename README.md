@@ -38,6 +38,8 @@ Nesse projeto utilizamos de várias abordagens e padrões utilizadas no mercado 
 
 <strong>Banco de dados por serviço</strong>: Uma abordagem em arquitetura de microservices onde cada serviço possui seu próprio banco de dados dedicado. Isso permite que os serviços mantenham suas próprias fontes de dados independentes, promovendo a autonomia, escalabilidade e isolamento dos dados. A gestão eficiente desses bancos de dados por meio de técnicas como particionamento, replicação e backups adequados é essencial para garantir o desempenho e a disponibilidade dos serviços em um ambiente distribuído. 
 
+<strong>Distributed tracing</strong>: Uma técnica que permite monitorar e registrar o fluxo de uma solicitação entre os diferentes componentes do sistema, fornecendo insights sobre o desempenho e a depuração de problemas em ambientes distribuídos.
+
 ## Aqui Podemos ter uma visão ampla de como a arquitetura funciona
 
 ![arqutetura-ead](images/ead.png)
