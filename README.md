@@ -22,13 +22,13 @@ Nesse projeto utilizamos de várias abordagens e padrões utilizadas no mercado 
 
 <strong>Security</strong>: A aplicação de medidas de segurança, como autenticação, autorização e criptografia, para proteger os microservices e os dados que trafegam entre eles.
 
-<strong>State Transfer</strong>: O conceito de que os microservices devem ser independentes e não compartilhar estado, o que melhora a escalabilidade, a flexibilidade e a resiliência do sistema.
+<strong>State Transfer</strong>: O conceito de que os microservices podem transferir e compartilhar o estado necessário para executar suas funcionalidades, garantindo a consistência dos dados entre os serviços e permitindo a escalabilidade, flexibilidade e resiliência do sistema.
 
 <strong>Event Driven</strong>: Uma abordagem em que os microservices reagem e se comunicam por meio de eventos assíncronos, permitindo um acoplamento fraco e uma maior escalabilidade.
 
 <strong>Brokers</strong>: Plataformas de mensageria como o Rabbitmq facilitam a troca de mensagens entre os microservices, proporcionando a comunicação assíncrona e o gerenciamento de eventos.
 
-<strong>Resilience</strong>: Utilizado o Resilience4j para os microservices ser capaz de lidar com falhas e se recuperar delas, por meio de técnicas como retries, circuit breakers e fallbacks, garantindo a disponibilidade e a confiabilidade do sistema.
+<strong>Resilience</strong>: Utilizado o Resilience4j para os microservices serem capazez de lidar com falhas e se recuperar delas, por meio de técnicas como retries, circuit breakers e fallbacks, garantindo a disponibilidade e a confiabilidade do sistema.
 
 Load Balancing<strong></strong>: A distribuição equilibrada do tráfego entre os microservices, garantindo a escalabilidade horizontal e a utilização eficiente dos recursos.
 
